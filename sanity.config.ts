@@ -15,4 +15,9 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
+  vite: {
+    build: {
+      outDir: 'dist',
+    },
+  },
 })
